@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "es2017",
+        "outDir": "dist",
+        "module": "esnext",
+        "strict": true,
+        "moduleResolution": "Node",
+        "allowSyntheticDefaultImports": true
+    },
+    "include": [
+        "src/**/*"
+, "src/commands/factory.ts"    ],
+    "exclude": ["node_modules"]
+}
